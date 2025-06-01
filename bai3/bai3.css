@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    background-color: rgb(184, 252, 163);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="number"],
+.container input[type="password"],
+.container input[type="date"],
+.container input[type="tel"],
+.container input[type="url"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
